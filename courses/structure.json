@@ -2,24 +2,32 @@
   {
     "id": "fds",
     "title": "Fundamentals of Data Science",
-    "files": [
+    "chapters": [
       {
+        "id": "fds_chapter_1",
+        "title": "Chapter 1",
         "type": "lecture",
-        "name": "chapter_1.pdf",
-        "url": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/lectures/chapter_1.pdf",
-        "metadata": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/metadata/chapter_1.json"
+        "icon": "BookOpen",
+        "pdfUrl": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/lectures/chapter_1.pdf",
+        "metadataUrl": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/metadata/chapter_1.json",
+        "exercises": []
       },
       {
-        "type": "lecture", 
-        "name": "chapter_2.pdf",
-        "url": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/lectures/chapter_2.pdf",
-        "metadata": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/metadata/chapter_2.json"
+        "id": "fds_chapter_2",
+        "title": "Chapter 2",
+        "type": "lecture",
+        "icon": "BookOpen",
+        "pdfUrl": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/lectures/chapter_2.pdf",
+        "metadataUrl": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/metadata/chapter_2.json",
+        "exercises": []
       },
       {
+        "id": "fds_series_1",
+        "title": "Series 1",
         "type": "exercise",
-        "name": "series_1.pdf", 
-        "url": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/exercises/series_1.pdf",
-        "metadata": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/metadata/series1.json"
+        "icon": "FileText",
+        "pdfUrl": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/exercises/series_1.pdf",
+        "metadataUrl": "https://raw.githubusercontent.com/8-chems/myportfolio-src/main/courses/fds/metadata/series1.json"
       }
     ]
   }
