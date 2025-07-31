@@ -91,4 +91,15 @@
       }
     ]
   }
+  , {
+    "id": "ml",
+    "title": "Comming soon: Machine Learning",
+    "files": []
+  }
+  ,
+   {
+    "id": "csa",
+    "title": "Comming soon: Cyber Security Audit",
+    "files": []
+   }
 ]
