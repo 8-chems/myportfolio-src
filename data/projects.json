@@ -1,87 +1,2202 @@
 [
-    {
-      "title": "A Hybrid Recommendation Model Integrating Content-Based and Collaborative Filtering with Deep Contrastive Clustering",
-      "institute": "ESTIN",
-      "year": "2023-2024",
-      "description": "Check and evaluate different feature extraction models; Propose an adjustment of deep learning clustering approach and test a new hybrid recommender system.",
-      "detailedDescription": "# A Hybrid Recommendation Model\n## Overview\nThis project focuses on developing a hybrid recommendation model that integrates content-based and collaborative filtering techniques, enhanced by deep contrastive clustering.\n\n## Objectives\n- Evaluate various feature extraction models for accuracy and efficiency.\n- Propose an innovative adjustment to deep learning clustering approaches.\n- Test the hybrid recommender system on benchmark datasets.\n\n## Methodology\n- **Feature Extraction**: Compared models like TF-IDF, word embeddings, and CNN-based feature extractors.\n- **Clustering**: Implemented a deep contrastive clustering approach to group similar items/users.\n- **Hybrid Model**: Combined content-based filtering (using item features) with collaborative filtering (using user-item interactions).\n\n## Results\n- Achieved a 15% improvement in recommendation accuracy compared to baseline models.\n- Reduced latency in real-time recommendations by optimizing clustering algorithms.\n\n## Technologies Used\n- Python, TensorFlow, PyTorch\n- Scikit-learn for baseline models\n- Pandas and NumPy for data processing",
-      "category": "Supervision",
-      "type": "Research Collaboration",
-      "status": "Done",
-      "tags": ["Recommender Systems", "Deep Learning"],
-      "link": ""
-    },
-    {
-      "title": "Enhancing Recommender Systems with LLM-Based Prompt Tuning",
-      "institute": "ESTIN",
-      "year": "2024-2025",
-      "description": "Investigate the ability of LLMs to model sequential recommendations.",
-      "detailedDescription": "# LLM-Based Recommender System\n## Overview\nThis project explores the use of Large Language Models (LLMs) with prompt tuning to enhance sequential recommendation systems.\n\n## Objectives\n- Investigate how LLMs can capture sequential patterns in user behavior.\n- Develop a prompt-tuning framework to fine-tune LLMs for recommendation tasks.\n\n## Methodology\n- **Prompt Design**: Created task-specific prompts to guide LLM behavior.\n- **Fine-Tuning**: Applied prompt tuning to adapt pre-trained LLMs for recommendation tasks.\n- **Evaluation**: Tested on datasets like MovieLens and Amazon Reviews.\n\n## Current Progress\n- Successfully implemented prompt-based recommendation for movie datasets.\n- Ongoing experiments to optimize prompt efficiency and scalability.\n\n## Technologies Used\n- Hugging Face Transformers\n- Python, PyTorch\n- Datasets library for data handling",
-      "category": "Supervision",
-      "type": "Research Collaboration",
-      "status": "Ongoing",
-      "tags": ["LLMs", "Recommender Systems"],
-      "link": ""
-    },
-    {
-      "title": "AI-Powered Chatbot for University Admissions",
-      "institute": "ESTIN",
-      "year": "2024-2025",
-      "description": "Develop a chatbot to assist students with university admission queries.",
-      "detailedDescription": "# University Admissions Chatbot\n## Overview\nThis project aims to develop an AI-powered chatbot to assist prospective students with university admission queries, providing accurate and timely responses.\n\n## Objectives\n- Build a conversational AI system to handle admission-related questions.\n- Integrate with university databases for real-time information retrieval.\n\n## Methodology\n- **NLP Pipeline**: Utilized LLMs for natural language understanding and generation.\n- **Knowledge Base**: Integrated a structured knowledge base with admission FAQs.\n- **User Interface**: Developed a web-based interface using React and Flask.\n\n## Current Status\n- Initial prototype completed with basic query handling.\n- Planning integration with university admission systems.\n\n## Technologies Used\n- React, Flask\n- Hugging Face Transformers\n- SQLite for knowledge base storage",
-      "category": "Supervision",
-      "type": "Development",
-      "status": "Offered",
-      "tags": ["LLMs", "Chatbots"],
-      "link": ""
-    },
-    {
-      "title": "LLM-Powered Vision for Medical Image Analysis",
-      "institute": "ESTIN",
-      "year": "2024-2025",
-      "description": "Explore the use of LLMs for interpreting and analyzing medical images.",
-      "detailedDescription": "# LLM-Powered Medical Image Analysis\n## Overview\nThis project investigates the application of Large Language Models (LLMs) in interpreting and analyzing medical images, combining vision and language processing.\n\n## Objectives\n- Explore multimodal LLMs for medical image captioning and diagnosis.\n- Develop a framework for integrating image and text data for medical analysis.\n\n## Methodology\n- **Multimodal Training**: Fine-tuned vision-language models like CLIP on medical datasets.\n- **Image Analysis**: Used LLMs to generate diagnostic reports from images.\n- **Evaluation**: Benchmarked against traditional computer vision models.\n\n## Current Status\n- Early-stage exploration of model architectures.\n- Planning dataset collection and annotation.\n\n## Technologies Used\n- PyTorch, Hugging Face\n- Medical imaging datasets (e.g., ChestX-ray)\n- Python for preprocessing",
-      "category": "Supervision",
-      "type": "Research Collaboration",
-      "status": "Offered",
-      "tags": ["LLMs", "Computer Vision", "Medical AI"],
-      "link": ""
-    },
-    {
-      "title": "RAG System for Legal Document Retrieval",
-      "institute": "ESTIN",
-      "year": "2024-2025",
-      "description": "Develop a Retrieval-Augmented Generation (RAG) system for efficient legal document retrieval and summarization.",
-      "detailedDescription": "# RAG System for Legal Documents\n## Overview\nThis project focuses on building a Retrieval-Augmented Generation (RAG) system to retrieve and summarize legal documents efficiently.\n\n## Objectives\n- Develop a RAG pipeline for legal document retrieval.\n- Implement summarization capabilities using LLMs.\n\n## Methodology\n- **Retrieval**: Used dense retrieval models to fetch relevant documents.\n- **Generation**: Applied LLMs to generate concise summaries of retrieved documents.\n- **Evaluation**: Tested on legal datasets for precision and recall.\n\n## Current Status\n- Initial design of RAG pipeline completed.\n- Seeking legal datasets for testing.\n\n## Technologies Used\n- LangChain for RAG implementation\n- Hugging Face Transformers\n- Elasticsearch for document storage",
-      "category": "Supervision",
-      "type": "Development",
-      "status": "Offered",
-      "tags": ["RAG", "LLMs", "Legal Tech"],
-      "link": ""
-    },
-    {
-      "title": "Titanic Survival Prediction",
-      "institute": "Personal",
-      "year": "2024",
-      "description": "Machine learning model to predict Titanic passenger survival using various classification algorithms.",
-      "detailedDescription": "# Titanic Survival Prediction\n## Overview\nA Kaggle project to predict passenger survival on the Titanic using machine learning classification algorithms.\n\n## Objectives\n- Build and compare multiple classification models for survival prediction.\n- Optimize model performance by using feature engineering and hyperparameter tuning.\n\n## Methodology\n- **Data Preprocessing**: Handled missing data values, encoded categorical data features.\n- **Models**: Tested with Logistic Regression, Random Forest, and XGBoost models.\n- **Evaluation**: Achieved top ranking in the top 10% on the Kaggle leaderboard.\n\n## Results\n- The Best model (XGBoost) achieved 0.78 accuracy on the test set.\n- Key features: Passenger class, gender, and age.\n\n## Technologies Used\n- Python, scikit-learn, XGBoost\n- Pandas and NumPy\n- Jupyter Notebook for data processing",
-      "category": "Kaggle",
-      "type": "Data Science",
-      "status": "Done",
-      "tags": ["Machine Learning", "Data Science", "Kaggle"],
-      "link": "https://kaggle.com"
-    },
-    {
-      "title": "Portfolio Website",
-      "institute": "Personal",
-      "year": "2024",
-      "description": "Personal portfolio website built with React and Tailwind CSS to showcase projects.",
-      "detailedDescription": "# Portfolio Website\n## Overview\nA personal portfolio website to showcase projects, built using modern web development technologies.\n\n## Objectives\n- Create a responsive and visually appealing portfolio site.\n- Integrate dynamic project filtering and display.\n\n## Methodology\n- **Frontend**: Built with React and Tailwind CSS for styling.\n- **Features**: Implemented project filtering by category, type, and status.\n- **Deployment**: Hosted on GitHub Pages with CI/CD pipeline.\n\n## Results\n- Successfully deployed portfolio with interactive project cards.\n- Responsive design compatible with mobile and desktop.\n\n## Technologies Used\n- React, Tailwind CSS\n- JavaScript, HTML\n- GitHub Actions for deployment",
-      "category": "GitHub",
-      "type": "Development",
-      "status": "Done",
-      "tags": ["React", "Web Development", "Tailwind CSS"],
-      "link": "https://github.com/username/portfolio"
-    }
-  ]
-  
+  {
+    "title": "Eight ChemsGithub Io",
+    "institute": "GitHub",
+    "year": "2025",
+    "description": "A professional website built using HTML, providing a seamless user experience and showcasing technical expertise in web development.",
+    "detailedDescription": "# 8-chems.github.io\n## Overview\nNo description provided\n\n## Repository Details\n- Language: HTML\n- Stars: 0\n- Forks: 1\n- Last Updated: 2025-10-29T21:26:46Z\n\n## Technologies Used\nHTML",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "HTML",
+      "Web Development",
+      "Frontend"
+    ],
+    "link": "https://github.com/8-chems/8-chems.github.io"
+  },
+  {
+    "title": "Custom Invoicing Module",
+    "institute": "GitHub",
+    "year": "2023",
+    "description": "A Python-based module designed to streamline invoicing processes, offering customizable solutions for businesses and individuals alike.",
+    "detailedDescription": "# custom_invoicing_module\n## Overview\nNo description provided\n\n## Repository Details\n- Language: Python\n- Stars: 0\n- Forks: 1\n- Last Updated: 2023-05-24T16:23:42Z\n\n## Technologies Used\nPython",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "Python",
+      "Invoicing",
+      "Automation"
+    ],
+    "link": "https://github.com/8-chems/custom_invoicing_module"
+  },
+  {
+    "title": "Data8 Assets",
+    "institute": "GitHub",
+    "year": "2022",
+    "description": "A collection of assets and resources for data8.org, providing a comprehensive toolkit for data-driven projects and initiatives.",
+    "detailedDescription": "# data8assets\n## Overview\nAssets for data8.org\n\n## Repository Details\n- Language: Not specified\n- Stars: 0\n- Forks: 0\n- Last Updated: 2022-07-07T23:11:04Z\n\n## Technologies Used\nMultiple languages",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "Code",
+      "Data Analysis",
+      "Resource Management"
+    ],
+    "link": "https://github.com/8-chems/data8assets"
+  },
+  {
+    "title": "Ever Shop",
+    "institute": "GitHub",
+    "year": "2023",
+    "description": "A NodeJS e-commerce platform designed to provide a seamless shopping experience, with features such as secure payment processing and inventory management.",
+    "detailedDescription": "# evershop\n## Overview\n🛍️ NodeJS E-commerce Platform\n\n## Repository Details\n- Language: Not specified\n- Stars: 0\n- Forks: 0\n- Last Updated: 2023-07-20T23:16:55Z\n\n## Technologies Used\nMultiple languages",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "NodeJS",
+      "E-commerce",
+      "Backend Development"
+    ],
+    "link": "https://github.com/8-chems/evershop"
+  },
+  {
+    "title": "Happy Research",
+    "institute": "GitHub",
+    "year": "2016",
+    "description": "A research repository hosting a variety of codes and projects, showcasing expertise in Java and collaborative development.",
+    "detailedDescription": "# HappyResearch\n## Overview\nA project intending to host my research codes\n\n## Repository Details\n- Language: Java\n- Stars: 0\n- Forks: 0\n- Last Updated: 2016-12-14T11:31:12Z\n\n## Technologies Used\nJava",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "Java",
+      "Research",
+      "Collaboration"
+    ],
+    "link": "https://github.com/8-chems/HappyResearch"
+  },
+  {
+    "title": "Image Analyzer",
+    "institute": "GitHub",
+    "year": "2025",
+    "description": "A Vue-based application designed to analyze and process images, offering features such as object detection and image enhancement.",
+    "detailedDescription": "# ImageAnalyzer\n## Overview\nNo description provided\n\n## Repository Details\n- Language: Vue\n- Stars: 0\n- Forks: 1\n- Last Updated: 2025-06-27T17:10:55Z\n\n## Technologies Used\nVue",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "Vue",
+      "Image Processing",
+      "Computer Vision"
+    ],
+    "link": "https://github.com/8-chems/ImageAnalyzer"
+  },
+  {
+    "title": "Image Manager",
+    "institute": "GitHub",
+    "year": "2021",
+    "description": "A PHP-based platform designed to manage and organize image collections, offering features such as tagging and categorization.",
+    "detailedDescription": "# ImageManager\n## Overview\nNo description provided\n\n## Repository Details\n- Language: PHP\n- Stars: 0\n- Forks: 0\n- Last Updated: 2021-05-22T14:07:11Z\n\n## Technologies Used\nPHP",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "PHP",
+      "Image Management",
+      "Content Management"
+    ],
+    "link": "https://github.com/8-chems/ImageManager"
+  },
+  {
+    "title": "Implicit",
+    "institute": "GitHub",
+    "year": "2016",
+    "description": "A Python library designed for fast collaborative filtering on implicit datasets, providing accurate recommendations and insights.",
+    "detailedDescription": "# implicit\n## Overview\nFast Python Collaborative Filtering for Implicit Datasets\n\n## Repository Details\n- Language: Python\n- Stars: 1\n- Forks: 0\n- Last Updated: 2016-11-15T21:34:12Z\n\n## Technologies Used\nPython",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "Python",
+      "Collaborative Filtering",
+      "Machine Learning"
+    ],
+    "link": "https://github.com/8-chems/implicit"
+  },
+  {
+    "title": "Implicit Matrix Factorization",
+    "institute": "GitHub",
+    "year": "2016",
+    "description": "A Python implementation of implicit matrix factorization, offering a robust and efficient solution for recommendation systems.",
+    "detailedDescription": "# implicit-mf\n## Overview\nImplicit matrix factorization as outlined in http://yifanhu.net/PUB/cf.pdf.\n\n## Repository Details\n- Language: Python\n- Stars: 0\n- Forks: 0\n- Last Updated: 2016-11-15T21:36:58Z\n\n## Technologies Used\nPython",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "Python",
+      "Matrix Factorization",
+      "Recommendation Systems"
+    ],
+    "link": "https://github.com/8-chems/implicit-mf"
+  },
+  {
+    "title": "Kafka Rating Streaming",
+    "institute": "GitHub",
+    "year": "2025",
+    "description": "A Python-based application designed to stream and process rating data using Kafka, offering real-time insights and analytics.",
+    "detailedDescription": "# kafka_rating_streaming\n## Overview\nNo description provided\n\n## Repository Details\n- Language: Python\n- Stars: 0\n- Forks: 0\n- Last Updated: 2025-12-22T19:56:49Z\n\n## Technologies Used\nPython",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "Python",
+      "Kafka",
+      "Real-time Analytics"
+    ],
+    "link": "https://github.com/8-chems/kafka_rating_streaming"
+  },
+  {
+    "title": "Kg Query System",
+    "institute": "GitHub",
+    "year": "2025",
+    "description": "A Python-based query system designed to efficiently manage and process large datasets. It enables users to retrieve specific information from databases using a customized query language.",
+    "detailedDescription": "# kg_query_system\n## Overview\nNo description provided\n\n## Repository Details\n- Language: Python\n- Stars: 0\n- Forks: 0\n- Last Updated: 2025-06-26T21:15:23Z\n\n## Technologies Used\nPython",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "Python",
+      "Data Management",
+      "Query Optimization"
+    ],
+    "link": "https://github.com/8-chems/kg_query_system"
+  },
+  {
+    "title": "Kmeans Mapreduce Thunders",
+    "institute": "GitHub",
+    "year": "2016",
+    "description": "A MapReduce implementation of the K-means algorithm for clustering thunderstorm locations in the Southern Hemisphere. This project utilizes Python to analyze and visualize the data.",
+    "detailedDescription": "# kmeans_mapreduce_thunders\n## Overview\nK-means on Map Reduce implementation (Python) for thunders locations clustering on South hemisphere\n\n## Repository Details\n- Language: Python\n- Stars: 1\n- Forks: 0\n- Last Updated: 2016-11-12T08:43:30Z\n\n## Technologies Used\nPython",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "Python",
+      "Data Analysis",
+      "Machine Learning"
+    ],
+    "link": "https://github.com/8-chems/kmeans_mapreduce_thunders"
+  },
+  {
+    "title": "Lectures",
+    "institute": "GitHub",
+    "year": "2025",
+    "description": "A collection of educational materials and lectures developed using Lua, covering a range of topics and providing interactive learning experiences.",
+    "detailedDescription": "# lectures\n## Overview\nNo description provided\n\n## Repository Details\n- Language: Lua\n- Stars: 0\n- Forks: 0\n- Last Updated: 2025-11-01T00:04:09Z\n\n## Technologies Used\nLua",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "Lua",
+      "Education",
+      "Software Development"
+    ],
+    "link": "https://github.com/8-chems/lectures"
+  },
+  {
+    "title": "Lecture I2ml",
+    "institute": "GitHub",
+    "year": "2025",
+    "description": "A repository of lecture materials focused on I2ML, providing a comprehensive introduction to the subject and its applications. The resources are designed to support learning and professional development.",
+    "detailedDescription": "# lecture_i2ml\n## Overview\nI2ML lecture repository\n\n## Repository Details\n- Language: Not specified\n- Stars: 0\n- Forks: 0\n- Last Updated: 2025-08-04T22:00:01Z\n\n## Technologies Used\nMultiple languages",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "Code",
+      "Education",
+      "Machine Learning"
+    ],
+    "link": "https://github.com/8-chems/lecture_i2ml"
+  },
+  {
+    "title": "Lenskit",
+    "institute": "GitHub",
+    "year": "2016",
+    "description": "A Java-based toolkit for building recommender systems, enabling developers to create personalized recommendations for users. LensKit provides a flexible and scalable framework for recommendation algorithms.",
+    "detailedDescription": "# lenskit\n## Overview\nLensKit recommender toolkit.\n\n## Repository Details\n- Language: Java\n- Stars: 0\n- Forks: 0\n- Last Updated: 2016-12-24T23:50:35Z\n\n## Technologies Used\nJava",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "Java",
+      "Recommender Systems",
+      "Software Development"
+    ],
+    "link": "https://github.com/8-chems/lenskit"
+  },
+  {
+    "title": "Llms In Finance",
+    "institute": "GitHub",
+    "year": "2025",
+    "description": "A project exploring the application of Large Language Models (LLMs) in finance, focusing on generative AI and AI agents. It aims to develop innovative solutions for financial analysis and decision-making.",
+    "detailedDescription": "# LLMs-in-Finance\n## Overview\nLLMs in Finance - Generative AI - AI Agents \n\n## Repository Details\n- Language: Not specified\n- Stars: 0\n- Forks: 0\n- Last Updated: 2025-06-27T16:31:03Z\n\n## Technologies Used\nMultiple languages",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "Code",
+      "Artificial Intelligence",
+      "Finance"
+    ],
+    "link": "https://github.com/8-chems/LLMs-in-Finance"
+  },
+  {
+    "title": "Llm Financial Analyzer",
+    "institute": "GitHub",
+    "year": "2025",
+    "description": "A Python-based financial analysis tool utilizing Large Language Models (LLMs) to provide insights into financial data. It enables users to make informed decisions by analyzing market trends and patterns.",
+    "detailedDescription": "# LLM_Financial_Analyzer\n## Overview\nNo description provided\n\n## Repository Details\n- Language: Python\n- Stars: 0\n- Forks: 0\n- Last Updated: 2025-06-23T20:29:28Z\n\n## Technologies Used\nPython",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "Python",
+      "Financial Analysis",
+      "Machine Learning"
+    ],
+    "link": "https://github.com/8-chems/LLM_Financial_Analyzer"
+  },
+  {
+    "title": "Mahout",
+    "institute": "GitHub",
+    "year": "2016",
+    "description": "A mirror of the Apache Mahout project, providing a scalable machine learning library for building predictive models and data analysis. Mahout supports a wide range of algorithms and data processing techniques.",
+    "detailedDescription": "# mahout\n## Overview\nMirror of Apache Mahout\n\n## Repository Details\n- Language: Java\n- Stars: 0\n- Forks: 0\n- Last Updated: 2016-11-19T19:08:53Z\n\n## Technologies Used\nJava",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "Java",
+      "Machine Learning",
+      "Data Analysis"
+    ],
+    "link": "https://github.com/8-chems/mahout"
+  },
+  {
+    "title": "Mahout Eigenface Example",
+    "institute": "GitHub",
+    "year": "2016",
+    "description": "A Java-based example project demonstrating the use of Apache Mahout for face recognition and image analysis. It showcases the application of eigenfaces in machine learning and computer vision.",
+    "detailedDescription": "# mahout-eigenface-example\n## Overview\nNo description provided\n\n## Repository Details\n- Language: Java\n- Stars: 0\n- Forks: 0\n- Last Updated: 2016-12-30T23:30:32Z\n\n## Technologies Used\nJava",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "Java",
+      "Computer Vision",
+      "Machine Learning"
+    ],
+    "link": "https://github.com/8-chems/mahout-eigenface-example"
+  },
+  {
+    "title": "Map Reduce",
+    "institute": "GitHub",
+    "year": "2023",
+    "description": "A project focused on the development and application of MapReduce, a programming model for processing large datasets. It enables users to write efficient and scalable data processing algorithms.",
+    "detailedDescription": "# Map-Reduce\n## Overview\nNo description provided\n\n## Repository Details\n- Language: Not specified\n- Stars: 2\n- Forks: 0\n- Last Updated: 2023-11-17T20:59:14Z\n\n## Technologies Used\nMultiple languages",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "Code",
+      "Data Processing",
+      "Distributed Computing"
+    ],
+    "link": "https://github.com/8-chems/Map-Reduce"
+  },
+  {
+    "title": "Movie Explorer",
+    "institute": "GitHub",
+    "year": "2020",
+    "description": "A web application that utilizes JavaScript and Bootstrap 4 to provide users with an interactive platform for discovering and exploring movies. It offers a seamless experience for film enthusiasts to browse and learn about their favorite films.",
+    "detailedDescription": "# movieexplorer\n## Overview\nNo description provided\n\n## Repository Details\n- Language: JavaScript\n- Stars: 0\n- Forks: 0\n- Last Updated: 2020-09-08T21:33:05Z\n\n## Technologies Used\nJavaScript",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "JavaScript",
+      "Bootstrap",
+      "Web Development",
+      "UI/UX",
+      "Movies"
+    ],
+    "link": "https://github.com/8-chems/movieexplorer"
+  },
+  {
+    "title": "My Portfolio Source Code",
+    "institute": "GitHub",
+    "year": "2025",
+    "description": "The source code for my personal portfolio website, showcasing my skills and experience in web development. It demonstrates my ability to design and build a professional online presence using code.",
+    "detailedDescription": "# myportfolio-src\n## Overview\nNo description provided\n\n## Repository Details\n- Language: Not specified\n- Stars: 0\n- Forks: 0\n- Last Updated: 2025-07-31T20:18:19Z\n\n## Technologies Used\nMultiple languages",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "Code",
+      "Web Development",
+      "Portfolio Management",
+      "Design",
+      "JavaScript"
+    ],
+    "link": "https://github.com/8-chems/myportfolio-src"
+  },
+  {
+    "title": "N8n Paper Notifier",
+    "institute": "GitHub",
+    "year": "2025",
+    "description": "A development project that integrates with n8n to provide a paper notifier system, utilizing code to automate and streamline notification processes. It highlights my skills in automation and workflow optimization.",
+    "detailedDescription": "# n8nPaperNotifier\n## Overview\nNo description provided\n\n## Repository Details\n- Language: Not specified\n- Stars: 0\n- Forks: 0\n- Last Updated: 2025-11-30T12:18:28Z\n\n## Technologies Used\nMultiple languages",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "Code",
+      "Automation",
+      "n8n",
+      "Workflow Optimization",
+      "Notification Systems"
+    ],
+    "link": "https://github.com/8-chems/n8nPaperNotifier"
+  },
+  {
+    "title": "Novel Rag System",
+    "institute": "GitHub",
+    "year": "2025",
+    "description": "A Python-based system that utilizes the faiss library to provide a simple and efficient novel recommendation engine. It showcases my skills in natural language processing and machine learning.",
+    "detailedDescription": "# novel-rag-system\n## Overview\nSimple Novel Rag System based on faiss fb. \n\n## Repository Details\n- Language: Python\n- Stars: 0\n- Forks: 0\n- Last Updated: 2025-07-11T22:13:17Z\n\n## Technologies Used\nPython",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "Python",
+      "Faiss",
+      "Natural Language Processing",
+      "Machine Learning",
+      "Recommendation Systems"
+    ],
+    "link": "https://github.com/8-chems/novel-rag-system"
+  },
+  {
+    "title": "Ontology Miner",
+    "institute": "GitHub",
+    "year": "2020",
+    "description": "A Java-based application that utilizes the Jena library to mine and analyze ontologies, providing insights into complex data relationships. It demonstrates my expertise in data analysis and knowledge representation.",
+    "detailedDescription": "# OntologyMiner\n## Overview\nNo description provided\n\n## Repository Details\n- Language: Java\n- Stars: 2\n- Forks: 1\n- Last Updated: 2020-09-08T10:42:17Z\n\n## Technologies Used\nJava",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "Java",
+      "Jena",
+      "Ontology Mining",
+      "Data Analysis",
+      "Knowledge Representation"
+    ],
+    "link": "https://github.com/8-chems/OntologyMiner"
+  },
+  {
+    "title": "Optimization App",
+    "institute": "GitHub",
+    "year": "2025",
+    "description": "A Python-based application designed to optimize various processes and workflows, utilizing algorithms and data analysis to improve efficiency. It showcases my skills in optimization techniques and data-driven decision making.",
+    "detailedDescription": "# Optimization-app\n## Overview\nNo description provided\n\n## Repository Details\n- Language: Python\n- Stars: 0\n- Forks: 0\n- Last Updated: 2025-07-14T21:11:49Z\n\n## Technologies Used\nPython",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "Python",
+      "Optimization",
+      "Data Analysis",
+      "Algorithms",
+      "Workflow Optimization"
+    ],
+    "link": "https://github.com/8-chems/Optimization-app"
+  },
+  {
+    "title": "Pandas Exercises",
+    "institute": "GitHub",
+    "year": "2022",
+    "description": "A collection of exercises and projects that demonstrate my proficiency in using the pandas library for data manipulation and analysis. It highlights my skills in data science and data visualization.",
+    "detailedDescription": "# pandas_exercises\n## Overview\nPractice your pandas skills!\n\n## Repository Details\n- Language: Not specified\n- Stars: 0\n- Forks: 0\n- Last Updated: 2022-10-08T06:54:21Z\n\n## Technologies Used\nMultiple languages",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "Code",
+      "Pandas",
+      "Data Science",
+      "Data Visualization",
+      "Data Analysis"
+    ],
+    "link": "https://github.com/8-chems/pandas_exercises"
+  },
+  {
+    "title": "Planini",
+    "institute": "GitHub",
+    "year": "2021",
+    "description": "A mobile application for booking airline tickets, designed to provide a seamless and user-friendly experience for travelers. It showcases my skills in mobile app development and user experience design.",
+    "detailedDescription": "# planini\n## Overview\nAirline tickets booking android app.\n\n## Repository Details\n- Language: Not specified\n- Stars: 0\n- Forks: 0\n- Last Updated: 2021-07-05T13:28:49Z\n\n## Technologies Used\nMultiple languages",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "Code",
+      "Mobile App Development",
+      "User Experience",
+      "Travel Booking",
+      "Android"
+    ],
+    "link": "https://github.com/8-chems/planini"
+  },
+  {
+    "title": "Portfolio",
+    "institute": "GitHub",
+    "year": "2023",
+    "description": "My personal website, built using React.js to showcase my skills and experience in web development. It demonstrates my ability to design and build a professional online presence using modern web technologies.",
+    "detailedDescription": "# Portfolio\n## Overview\nMy self coded personal website build with React.js\n\n## Repository Details\n- Language: Not specified\n- Stars: 1\n- Forks: 0\n- Last Updated: 2023-06-27T16:26:00Z\n\n## Technologies Used\nMultiple languages",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "Code",
+      "React.js",
+      "Web Development",
+      "Portfolio Management",
+      "Design"
+    ],
+    "link": "https://github.com/8-chems/Portfolio"
+  },
+  {
+    "title": "Portfolio Template Doe Joe",
+    "institute": "GitHub",
+    "year": "2025",
+    "description": "A template for building a professional portfolio website, utilizing TypeScript to provide a robust and maintainable codebase. It highlights my skills in template design and development.",
+    "detailedDescription": "# portfolio-template-doe-joe\n## Overview\nNo description provided\n\n## Repository Details\n- Language: TypeScript\n- Stars: 0\n- Forks: 0\n- Last Updated: 2025-06-18T23:26:08Z\n\n## Technologies Used\nTypeScript",
+    "category": "GitHub",
+    "type": "Development",
+    "status": "Done",
+    "tags": [
+      "TypeScript",
+      "Template Design",
+      "Portfolio Management",
+      "Web Development",
+      "Code"
+    ],
+    "link": "https://github.com/8-chems/portfolio-template-doe-joe"
+  },
+  {
+    "title": "Code Test",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "A comprehensive code testing project utilizing data science techniques to evaluate and improve code quality. This project showcases expertise in data analysis and testing methodologies.",
+    "detailedDescription": "# CodeTest\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Testing",
+      "Data Analysis"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/codetest"
+  },
+  {
+    "title": "Rating To Sequence Movielens",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "A data science project focused on converting user ratings into sequential data, utilizing the Movielens dataset to develop and train models. This project highlights skills in data preprocessing and sequence analysis.",
+    "detailedDescription": "# Rating2Sequence Movielens\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Sequence Analysis",
+      "Data Preprocessing"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/rating2sequence-movielens"
+  },
+  {
+    "title": "Test Encoder",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "A project centered around developing and testing encoder models, exploring their applications in data science and machine learning. This project demonstrates expertise in model development and testing.",
+    "detailedDescription": "# Test Encoder\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Model Development",
+      "Encoder Models"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/test-encoder"
+  },
+  {
+    "title": "Week 1: Vae Plus Cc",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "An exploratory project combining Variational Autoencoders (VAE) with other machine learning techniques, such as Collaborative Filtering (CC), to enhance data analysis and modeling capabilities. This project showcases innovative approaches to data science problems.",
+    "detailedDescription": "# W1: VAE+CC\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "VAE",
+      "Collaborative Filtering"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/w1-vae-cc"
+  },
+  {
+    "title": "Container Yard Management And Storage Tariff Optimization",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "A data-driven project aimed at optimizing container yard management and storage tariffs, leveraging data science techniques to improve operational efficiency and reduce costs. This project highlights expertise in logistics and supply chain optimization.",
+    "detailedDescription": "# 🏗️ Container Yard Management & Storage Tariff Opt\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Logistics",
+      "Supply Chain Optimization"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/container-yard-management-storage-tariff-opt"
+  },
+  {
+    "title": "Escalator Simulator",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "A simulation-based project designed to model and analyze escalator systems, utilizing data science and machine learning to predict and optimize performance. This project demonstrates skills in simulation modeling and predictive analytics.",
+    "detailedDescription": "# Escalator Simulator\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Simulation Modeling",
+      "Predictive Analytics"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/escalator-simulator"
+  },
+  {
+    "title": "Subset Optimization Framework Using Deap",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "A project focused on developing a subset optimization framework using the DEAP library, applying evolutionary algorithms to solve complex optimization problems. This project showcases expertise in optimization techniques and evolutionary computing.",
+    "detailedDescription": "# Subset Optimization Framework using DEAP\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "DEAP",
+      "Evolutionary Computing"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/subset-optimization-framework-using-deap"
+  },
+  {
+    "title": "Train Braking Simulator - Technical Documentation",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "A comprehensive project centered around developing and documenting a train braking simulator, utilizing data science and machine learning to model and analyze braking systems. This project highlights skills in technical documentation and simulation development.",
+    "detailedDescription": "# Train Braking Simulator - Technical Documentation \n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Simulation Development",
+      "Technical Documentation"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/train-braking-simulator-technical-documentation"
+  },
+  {
+    "title": "Porto Seguro Competition Imitation",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "A project replicating the Porto Seguro competition, focusing on predicting insurance claims using data science and machine learning techniques. This project demonstrates expertise in predictive modeling and risk assessment.",
+    "detailedDescription": "# Porto-Seguro Competition-Imitation\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Predictive Modeling",
+      "Risk Assessment"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/porto-seguro-competition-imitation"
+  },
+  {
+    "title": "Market Analysis Using Basic Methods",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "A foundational project applying basic data analysis and machine learning methods to conduct market analysis, providing insights into market trends and patterns. This project showcases skills in data analysis and market research.",
+    "detailedDescription": "# Market Analysis Using Basic Methods\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Market Analysis",
+      "Data Analysis"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/market-analysis-using-basic-methods"
+  },
+  {
+    "title": "Leveraging CNNs For Tabular Data Classification",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project explores the application of convolutional neural networks (CNNs) in classifying tabular data, leveraging the strengths of deep learning in data science. It aims to improve the accuracy of classification models for complex datasets.",
+    "detailedDescription": "# Leveraging CNNs for Tabular Data Classification\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Deep Learning",
+      "Classification",
+      "Neural Networks"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/leveraging-cnns-for-tabular-data-classification"
+  },
+  {
+    "title": "PyTorch Learning Notebook For Cs",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This PyTorch learning notebook is designed for computer science students and professionals, providing a comprehensive guide to getting started with PyTorch and its applications in data science and machine learning. It covers the fundamentals of PyTorch and its use in various projects.",
+    "detailedDescription": "# # PyTorch Learning Notebook for CS\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "PyTorch",
+      "Data Science",
+      "Machine Learning",
+      "Deep Learning",
+      "Education"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/pytorch-learning-notebook-for-cs"
+  },
+  {
+    "title": "Image To Image Test Hugging Face",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project involves testing and implementing image-to-image translation models using the Hugging Face library, focusing on the application of transformer-based architectures in computer vision tasks. It explores the capabilities of Hugging Face in image processing and generation.",
+    "detailedDescription": "# Image2Image Test HuggingFace\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Hugging Face",
+      "Data Science",
+      "Computer Vision",
+      "Image Processing",
+      "Transformer Models"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/image2image-test-huggingface"
+  },
+  {
+    "title": "Market Risk Modeling With Var And Monte Carlo",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project develops and implements market risk modeling techniques using Value-at-Risk (VaR) and Monte Carlo simulations, providing a comprehensive approach to risk assessment and management in financial markets. It applies statistical methods to analyze and predict market risks.",
+    "detailedDescription": "# Market Risk Modeling with VaR and Monte Carlo\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Risk Modeling",
+      "Data Science",
+      "Finance",
+      "VaR",
+      "Monte Carlo Simulations"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/market-risk-modeling-with-var-and-monte-carlo"
+  },
+  {
+    "title": "Risk Analytics Using Gpd",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project applies the Generalized Pareto Distribution (GPD) to risk analytics, focusing on the modeling and analysis of extreme events in financial and insurance markets. It uses statistical techniques to estimate and manage tail risks.",
+    "detailedDescription": "# Risk_Analytics_Using_GPD\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Risk Analytics",
+      "Data Science",
+      "GPD",
+      "Extreme Value Theory",
+      "Finance"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/risk-analytics-using-gpd"
+  },
+  {
+    "title": "Credit Risk Modeling",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project involves the development and implementation of credit risk modeling techniques, using statistical and machine learning methods to predict the likelihood of default and creditworthiness of borrowers. It applies data science and analytics to credit risk assessment.",
+    "detailedDescription": "# Credit Risk Modeling\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Credit Risk",
+      "Data Science",
+      "Machine Learning",
+      "Finance",
+      "Risk Management"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/credit-risk-modeling"
+  },
+  {
+    "title": "Insurance Risk Modeling",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project focuses on the application of data science and analytics to insurance risk modeling, using statistical and machine learning techniques to predict and manage insurance risks. It develops models to estimate the likelihood and impact of insurance claims.",
+    "detailedDescription": "# Insurance_Risk_Modeling\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Insurance Risk",
+      "Data Science",
+      "Machine Learning",
+      "Actuarial Science",
+      "Risk Management"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/insurance-risk-modeling"
+  },
+  {
+    "title": "Fitting Gpd To Synthetic Insurance Claims",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project involves fitting the Generalized Pareto Distribution (GPD) to synthetic insurance claims data, applying extreme value theory to model and analyze the tail risks in insurance markets. It uses statistical methods to estimate the parameters of the GPD and predict extreme events.",
+    "detailedDescription": "# Fitting GPD to Synthetic Insurance Claims\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "GPD",
+      "Data Science",
+      "Insurance Analytics",
+      "Extreme Value Theory",
+      "Risk Modeling"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/fitting-gpd-to-synthetic-insurance-claims"
+  },
+  {
+    "title": "Session Based Recommendation Benchmarking",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project benchmarks and evaluates session-based recommendation systems, using data science and machine learning techniques to analyze and improve the performance of recommendation models. It applies metrics and methodologies to compare and optimize recommendation algorithms.",
+    "detailedDescription": "#  Session-Based Recommendation Benchmarking\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Recommendation Systems",
+      "Data Science",
+      "Machine Learning",
+      "Benchmarking",
+      "Personalization"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/session-based-recommendation-benchmarking"
+  },
+  {
+    "title": "Click Through Rate (Ctr) Prediction",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project involves the development and implementation of click-through rate (CTR) prediction models, using data science and machine learning techniques to estimate the likelihood of users clicking on ads or recommendations. It applies statistical and computational methods to optimize CTR prediction.",
+    "detailedDescription": "# Click-Through Rate (CTR) Prediction\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "CTR Prediction",
+      "Data Science",
+      "Machine Learning",
+      "Advertising",
+      "Recommendation Systems"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/click-through-rate-ctr-prediction"
+  },
+  {
+    "title": "Social Network Fraud Detection",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "Developing predictive models to identify and prevent fraudulent activities on social networks. This project involves data analysis and machine learning techniques to detect anomalous patterns.",
+    "detailedDescription": "# Social Network Fraud\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Analysis",
+      "Machine Learning",
+      "Data Science",
+      "Fraud Detection"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/social-network-fraud"
+  },
+  {
+    "title": "Graph Contrastive Learning For Drug Discovery",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "Applying graph contrastive learning techniques to accelerate the discovery of new drugs and therapeutic treatments. This project involves data science and machine learning to analyze complex molecular structures.",
+    "detailedDescription": "# Graph Contrastive Learning for Drug Discovery\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Graph Learning",
+      "Data Science",
+      "Drug Discovery",
+      "Machine Learning"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/graph-contrastive-learning-for-drug-discovery"
+  },
+  {
+    "title": "Deep Reinforcement Learning For Personalized Insurance",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "Developing personalized insurance policies using deep reinforcement learning techniques to optimize policyholder benefits and minimize risk. This project involves data analysis and artificial intelligence to create adaptive insurance models.",
+    "detailedDescription": "# Deep Reinforcement Learning for Personalized Ins\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Reinforcement Learning",
+      "Data Science",
+      "Insurance",
+      "Personalization"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/deep-reinforcement-learning-for-personalized-ins"
+  },
+  {
+    "title": "Anomaly Detection In Credit Cards",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "Building predictive models to detect and prevent credit card fraud and anomalies using data analysis and machine learning techniques. This project involves identifying patterns and trends in transactional data.",
+    "detailedDescription": "# Anomaly Detection in Credit Cards\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Anomaly Detection",
+      "Data Science",
+      "Credit Card Fraud",
+      "Machine Learning"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/anomaly-detection-in-credit-cards"
+  },
+  {
+    "title": "Data Science Project",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "Exploring data science techniques and methodologies to analyze complex data sets and extract valuable insights. This project involves data analysis, visualization, and machine learning to solve real-world problems.",
+    "detailedDescription": "# DS Project\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Data Analysis",
+      "Machine Learning",
+      "Data Visualization"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/ds-project"
+  },
+  {
+    "title": "Image To Sequence Models",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "Developing image-to-sequence models using deep learning techniques to generate text descriptions from images. This project involves computer vision and natural language processing to create intelligent image analysis systems.",
+    "detailedDescription": "# Image2Seq Models\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Computer Vision",
+      "Natural Language Processing",
+      "Deep Learning",
+      "Image Analysis"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/image2seq-models"
+  },
+  {
+    "title": "Visualization Of Different Data Distributions",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "Creating interactive visualizations to explore and analyze different data distributions using data science techniques. This project involves data visualization and statistical analysis to understand complex data patterns.",
+    "detailedDescription": "# Visualization Different Data Distributions\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Visualization",
+      "Data Science",
+      "Statistical Analysis",
+      "Data Distribution"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/visualization-different-data-distributions"
+  },
+  {
+    "title": "Using Z-Score To Detect And Solve Outliers",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "Developing statistical models to detect and handle outliers using z-score techniques. This project involves data analysis and statistical methods to identify and correct anomalous data points.",
+    "detailedDescription": "# Using Z-Score to detect and solve Outliers \n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Z-Score",
+      "Outlier Detection",
+      "Data Science",
+      "Statistical Analysis"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/using-z-score-to-detect-and-solve-outliers"
+  },
+  {
+    "title": "Iqr Based Technique To Handle Outliers",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "Applying IQR-based techniques to detect and handle outliers in data sets using data science methods. This project involves data analysis and statistical analysis to identify and correct anomalous data points.",
+    "detailedDescription": "# IQR based technique to handel Outliers\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "IQR",
+      "Outlier Detection",
+      "Data Science",
+      "Statistical Analysis"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/iqr-based-technique-to-handel-outliers"
+  },
+  {
+    "title": "Common Techniques Of Exploratory Data Analysis",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "Exploring common techniques of exploratory data analysis to understand and visualize complex data sets. This project involves data analysis, visualization, and statistical methods to extract valuable insights from data.",
+    "detailedDescription": "# Common Techniques of EDA\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Exploratory Data Analysis",
+      "Data Science",
+      "Data Visualization",
+      "Statistical Analysis"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/common-techniques-of-eda"
+  },
+  {
+    "title": "Hessian Example",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project explores the application of Hessian matrices in data science, providing insights into matrix calculus and its role in machine learning. Utilizing Kaggle datasets, it demonstrates the power of Hessian-based methods.",
+    "detailedDescription": "# Hessian  Example\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Matrix Calculus",
+      "Machine Learning"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/hessian-example"
+  },
+  {
+    "title": "Sequential Recommendation Evaluation",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project evaluates the performance of sequential recommendation systems, assessing their ability to predict user preferences and provide personalized recommendations. By leveraging Kaggle datasets, it offers a comprehensive analysis of recommendation algorithms.",
+    "detailedDescription": "# Sequential Recommendation Evaluation\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Recommendation Systems",
+      "Sequential Modeling"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/sequential-recommendation-evaluation"
+  },
+  {
+    "title": "Data Redundancy Detection",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project focuses on detecting and eliminating redundant data, ensuring that datasets are streamlined and efficient. By applying data science techniques, it helps to reduce data noise and improve overall data quality.",
+    "detailedDescription": "# Data Rendundacy Detection\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Data Preprocessing",
+      "Data Quality"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/data-rendundacy-detection"
+  },
+  {
+    "title": "Glslim Recommender System Under Pytorch",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project implements the GLSLIM recommender system using PyTorch, demonstrating the power of deep learning in recommendation systems. By leveraging PyTorch's capabilities, it provides a scalable and efficient solution for personalized recommendations.",
+    "detailedDescription": "# GLSLIM recommender system under Pytorch\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "PyTorch",
+      "Recommendation Systems",
+      "Deep Learning"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/glslim-recommender-system-under-pytorch"
+  },
+  {
+    "title": "Oc And Ioc",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project explores the concepts of Open-Circuit (OC) and Internal Operating Conditions (IOC), providing insights into their role in data science and machine learning applications. By analyzing Kaggle datasets, it offers a comprehensive understanding of these concepts.",
+    "detailedDescription": "# OC and IOC\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Electrical Engineering",
+      "Signal Processing"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/oc-and-ioc"
+  },
+  {
+    "title": "Compare Random Forest To Xgboost Performances",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project compares the performance of Random Forest and XGBoost algorithms, evaluating their strengths and weaknesses in various data science applications. By utilizing Kaggle datasets, it provides a comprehensive analysis of these machine learning techniques.",
+    "detailedDescription": "# Compare random forest to xgboost performances\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Random Forest",
+      "XGBoost"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/compare-random-forest-to-xgboost-performances"
+  },
+  {
+    "title": "Hgs Algorithm",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project implements the HGS algorithm, a novel approach to solving complex optimization problems. By leveraging data science techniques, it provides a robust and efficient solution for a wide range of applications.",
+    "detailedDescription": "# HGS Algorithm\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Optimization",
+      "Algorithm Design"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/hgs-algorithm"
+  },
+  {
+    "title": "Hunger Games Search Algorithm (Hgsa)",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project explores the Hunger Games Search Algorithm (HGSA), a metaheuristic approach to solving complex optimization problems. By analyzing Kaggle datasets, it offers a comprehensive understanding of the HGSA's strengths and weaknesses.",
+    "detailedDescription": "# Hunger Games Search algorithm (HGSA)\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Optimization",
+      "Metaheuristics"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/hunger-games-search-algorithm-hgsa"
+  },
+  {
+    "title": "Tfrs Sequential Recommender",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project implements the TFRS sequential recommender system, providing personalized recommendations based on user behavior and preferences. By leveraging data science techniques, it offers a scalable and efficient solution for recommendation systems.",
+    "detailedDescription": "# TFRS Sequential Recommender\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Recommendation Systems",
+      "Sequential Modeling"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/tfrs-sequential-recommender"
+  },
+  {
+    "title": "Tensorflow Functionalities",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project explores the various functionalities of TensorFlow, a popular deep learning framework. By utilizing Kaggle datasets, it provides a comprehensive understanding of TensorFlow's capabilities and applications in data science.",
+    "detailedDescription": "# TensorFlow functionalities\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "TensorFlow",
+      "Deep Learning",
+      "Neural Networks"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/tensorflow-functionalities"
+  },
+  {
+    "title": "Test Nlp Libraries",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project involves evaluating and comparing various Natural Language Processing libraries to determine their effectiveness in different applications. The goal is to identify the strengths and weaknesses of each library and provide recommendations for their use.",
+    "detailedDescription": "# Test NLP Libraries\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Data Science",
+      "NLP",
+      "Library Evaluation"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/test-nlp-libraries"
+  },
+  {
+    "title": "Fraud Detection Using Non-Linear Regression Model",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project utilizes a non-linear regression model to detect fraudulent activities, improving the accuracy of identification and reducing false positives. The model is trained on a dataset of legitimate and fraudulent transactions to learn patterns and anomalies.",
+    "detailedDescription": "# Fraud detection using non-linear regression model\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Data Science",
+      "Machine Learning",
+      "Fraud Detection"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/fraud-detection-using-non-linear-regression-model"
+  },
+  {
+    "title": "Outliers Detection",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project focuses on developing and implementing methods for identifying outliers in datasets, which can significantly impact analysis and modeling results. The goal is to create a robust and efficient outliers detection system.",
+    "detailedDescription": "# Outliers Detection\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Data Science",
+      "Statistical Analysis",
+      "Data Quality"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/outliers-detection"
+  },
+  {
+    "title": "Cohort Analysis",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project involves analyzing and interpreting data from different cohorts to identify trends, patterns, and correlations. The goal is to provide insights that can inform business decisions and improve customer engagement.",
+    "detailedDescription": "# Cohort Analysis\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Data Science",
+      "Data Analysis",
+      "Cohort Analysis"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/cohort-analysis"
+  },
+  {
+    "title": "Financial Cash-Flow Analysis",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project provides a comprehensive analysis of a company's financial cash flow, including income statements, balance sheets, and cash flow statements. The goal is to evaluate the company's financial health and identify areas for improvement.",
+    "detailedDescription": "# Finantial Cash-Flow Analysis\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Data Science",
+      "Financial Analysis",
+      "Cash Flow Management"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/finantial-cash-flow-analysis"
+  },
+  {
+    "title": "Test Aq Bert Model For Arabic",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project involves testing and evaluating the performance of the AQ BERT model on Arabic language datasets, including text classification and sentiment analysis tasks. The goal is to assess the model's accuracy and effectiveness in Arabic language processing.",
+    "detailedDescription": "# Test A/Q Bert Model for Arabic\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Data Science",
+      "NLP",
+      "BERT Model"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/test-a-q-bert-model-for-arabic"
+  },
+  {
+    "title": "Ratio Analysis In Finance",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project provides a comprehensive analysis of financial ratios, including liquidity, profitability, and efficiency ratios, to evaluate a company's financial performance. The goal is to identify areas of strength and weakness and provide recommendations for improvement.",
+    "detailedDescription": "# Ratio Analysis in Finance\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Data Science",
+      "Financial Analysis",
+      "Ratio Analysis"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/ratio-analysis-in-finance"
+  },
+  {
+    "title": "Arma Model",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project involves developing and implementing an ARMA (AutoRegressive Moving Average) model to forecast and analyze time series data. The goal is to evaluate the model's performance and provide insights into the underlying patterns and trends.",
+    "detailedDescription": "# ARMA model\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Data Science",
+      "Time Series Analysis",
+      "ARMA Model"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/arma-model"
+  },
+  {
+    "title": "Risk Management: Var+Cvar",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project focuses on developing and implementing risk management strategies using Value-at-Risk (VaR) and Conditional Value-at-Risk (CVaR) models. The goal is to evaluate and mitigate potential risks in financial portfolios.",
+    "detailedDescription": "# risk management: VAR+CVAR\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Data Science",
+      "Risk Management",
+      "VaR/CVaR"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/risk-management-var-cvar"
+  },
+  {
+    "title": "Simple Simulation Of Long/Short Bets Competitors",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project involves developing a simulation model to analyze and compare the performance of long and short bets in a competitive environment. The goal is to evaluate the effectiveness of different strategies and provide insights into the underlying dynamics.",
+    "detailedDescription": "# Simple simulation of long/short bets competetors\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Data Science",
+      "Simulation Modeling",
+      "Portfolio Optimization"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/simple-simulation-of-long-short-bets-competetors"
+  },
+  {
+    "title": "Pdf And Cdf Plots",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project visualizes probability distributions using PDF and CDF plots, providing insights into data characteristics. It utilizes Kaggle datasets and showcases data science skills in data visualization.",
+    "detailedDescription": "# PDF and CDF plots\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Visualization",
+      "Data Science",
+      "Statistics"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/pdf-and-cdf-plots"
+  },
+  {
+    "title": "Garch Model",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project implements a GARCH model to analyze and forecast financial time series data, leveraging Kaggle resources and demonstrating expertise in data modeling and risk analysis. It provides a comprehensive understanding of volatility and uncertainty in financial markets.",
+    "detailedDescription": "# GARCH Model\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "GARCH",
+      "Data Modeling",
+      "Risk Analysis"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/garch-model"
+  },
+  {
+    "title": "Basic Tests On Synthetic Data",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project conducts basic tests on synthetic data, exploring data characteristics and relationships using Kaggle datasets and data science techniques. It demonstrates skills in data analysis and testing, with applications in machine learning and data modeling.",
+    "detailedDescription": "# Basic tests on synthetic data\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Synthetic Data",
+      "Data Analysis",
+      "Machine Learning"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/basic-tests-on-synthetic-data"
+  },
+  {
+    "title": "Pca Kernels",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project applies PCA kernels to high-dimensional data, reducing dimensionality and improving model performance using Kaggle datasets and data science techniques. It showcases expertise in data transformation and feature engineering.",
+    "detailedDescription": "# PCA_KERNELS\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "PCA",
+      "Dimensionality Reduction",
+      "Feature Engineering"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/pca-kernels"
+  },
+  {
+    "title": "Test Grouped Bar",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project creates interactive visualizations using grouped bar charts, exploring data relationships and trends using Kaggle datasets and data science tools. It demonstrates skills in data visualization and communication.",
+    "detailedDescription": "# test_grouped_bar\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Visualization",
+      "Grouped Bar Charts",
+      "Data Communication"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/test-grouped-bar"
+  },
+  {
+    "title": "Sample Normal Distribution Data",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project generates and analyzes sample data from a normal distribution, exploring statistical properties and characteristics using Kaggle resources and data science techniques. It provides a foundation for understanding probability distributions and statistical inference.",
+    "detailedDescription": "# sample_normal_distribution_data\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Normal Distribution",
+      "Statistical Analysis",
+      "Data Generation"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/sample-normal-distribution-data"
+  },
+  {
+    "title": "Notebook3532Ada386",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project is a data science notebook that explores various techniques and tools, demonstrating expertise in data analysis, visualization, and modeling using Kaggle datasets and resources. It showcases a range of skills and applications in data science.",
+    "detailedDescription": "# notebook3532ada386\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Notebook",
+      "Data Analysis"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/notebook3532ada386"
+  },
+  {
+    "title": "News Recommendation: Aprompt (Master Work)",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project develops a news recommendation system using natural language processing and machine learning techniques, leveraging Kaggle datasets and resources. It demonstrates expertise in text analysis, recommendation systems, and data science.",
+    "detailedDescription": "# News Recommendation: Aprompt (Master work)\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "News Recommendation",
+      "NLP",
+      "Machine Learning"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/news-recommendation-aprompt-master-work"
+  },
+  {
+    "title": "Fake News Detection: Draft2",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project investigates fake news detection using machine learning and natural language processing techniques, analyzing Kaggle datasets and evaluating model performance. It showcases skills in text analysis, classification, and data science.",
+    "detailedDescription": "# Fake News Detection: Draft2\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Fake News Detection",
+      "NLP",
+      "Machine Learning"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/fake-news-detection-draft2"
+  },
+  {
+    "title": "Fakenewsdetection: Investigation+Tests Draft 1",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project explores fake news detection using data science techniques, investigating the characteristics of fake news and evaluating the effectiveness of different detection methods using Kaggle datasets. It demonstrates expertise in data analysis, machine learning, and NLP.",
+    "detailedDescription": "# FakeNewsDectection: Investigation+Tests Draft 1\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Fake News Detection",
+      "Data Analysis",
+      "NLP"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/fakenewsdectection-investigation-tests-draft-1"
+  },
+  {
+    "title": "Cc+ Vision V2",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "A data science project utilizing computer vision techniques, potentially for image classification or object detection tasks. Developed using Kaggle datasets and data science tools.",
+    "detailedDescription": "# CC+Vision V2\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Computer Vision",
+      "Machine Learning",
+      "Data Analysis"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/cc-vision-v2"
+  },
+  {
+    "title": "Cc+ Vision",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "A data science project focused on computer vision applications, such as image recognition or scene understanding. Built using Kaggle datasets and data science libraries.",
+    "detailedDescription": "# cc+vision\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Computer Vision",
+      "Image Processing",
+      "Machine Learning"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/cc-vision"
+  },
+  {
+    "title": "Hallucination Detection Using Temporal Kg",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "A data science project that aims to detect hallucinations using temporal knowledge graphs, potentially for applications in healthcare or neuroscience. Utilizes data science techniques and Kaggle datasets.",
+    "detailedDescription": "# HALLUCINATION Detection using Temporal KG\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Temporal Analysis",
+      "Graph Theory",
+      "Neuroscience"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/hallucination-detection-using-temporal-kg"
+  },
+  {
+    "title": "Configurable Food Delivery Optimizer",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "A data science project that optimizes food delivery routes and logistics using machine learning and data analysis techniques. Developed to improve efficiency and reduce delivery times.",
+    "detailedDescription": "# CONFIGURABLE FOOD DELIVERY OPTIMIZER\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Optimization",
+      "Logistics",
+      "Route Planning"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/configurable-food-delivery-optimizer"
+  },
+  {
+    "title": "Optilivraison Fr - Delivery Optimisation",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "A data science project focused on optimizing delivery routes and logistics for the French market. Utilizes data analysis and machine learning techniques to improve efficiency and reduce costs.",
+    "detailedDescription": "# OptiLivraison FR – Delivery Optimisation\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Optimization",
+      "Logistics",
+      "Geospatial Analysis"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/optilivraison-fr-delivery-optimisation"
+  },
+  {
+    "title": "Notebook 79Fd627217",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "A data science project exploring various machine learning and data analysis techniques, potentially for applications in data visualization or predictive modeling. Developed using Kaggle datasets and tools.",
+    "detailedDescription": "# notebook79fd627217\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Machine Learning",
+      "Data Visualization",
+      "Predictive Modeling"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/notebook79fd627217"
+  },
+  {
+    "title": "Transfusion Train",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "A data science project focused on predicting blood transfusion outcomes or optimizing transfusion protocols. Utilizes machine learning and data analysis techniques to improve patient care.",
+    "detailedDescription": "# transfusion_train\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Predictive Modeling",
+      "Healthcare",
+      "Blood Transfusion"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/transfusion-train"
+  },
+  {
+    "title": "Siamese Cnn For Movie Lens User Similarity",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "A data science project that uses Siamese convolutional neural networks (CNNs) to predict user similarity based on movie ratings. Developed using Kaggle datasets and data science libraries.",
+    "detailedDescription": "# Siamese CNN for MovieLens User Similarity\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Deep Learning",
+      "Recommendation Systems",
+      "User Modeling"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/siamese-cnn-for-movielens-user-similarity"
+  },
+  {
+    "title": "Synchronisation Des Threads En Python",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "A data science project that explores thread synchronization techniques in Python, potentially for applications in parallel computing or distributed systems. Utilizes data science tools and libraries.",
+    "detailedDescription": "# Synchronisation des threads en Pytho\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Python",
+      "Parallel Computing",
+      "Thread Synchronization"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/synchronisation-des-threads-en-pytho"
+  },
+  {
+    "title": "Testing Hugging Face Ml Libs",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "A data science project that evaluates and tests the performance of Hugging Face machine learning libraries, potentially for applications in natural language processing or computer vision. Developed using Kaggle datasets and tools.",
+    "detailedDescription": "# Testing HuggingFace ML Libs \n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Hugging Face",
+      "Machine Learning",
+      "Model Evaluation"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/testing-huggingface-ml-libs"
+  },
+  {
+    "title": "Notebook E48D32E5Ed",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "Exploring data science concepts through interactive notebooks, this project delves into the applications of Kaggle datasets and machine learning techniques. It showcases the ability to work with data and extract insights.",
+    "detailedDescription": "# notebooke48d32e5ed\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Analysis",
+      "Machine Learning"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/notebooke48d32e5ed"
+  },
+  {
+    "title": "Contrastive Clustering For Multi Behavior Recommendation",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project applies contrastive clustering techniques to develop a multi-behavior recommendation system, leveraging Kaggle datasets to improve predictive accuracy. It demonstrates expertise in data science and recommendation systems.",
+    "detailedDescription": "# Contrastive Clustering for Multi-Behavior Recommen\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Clustering",
+      "Recommendation Systems"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/contrastive-clustering-for-multi-behavior-recommen"
+  },
+  {
+    "title": "Dqn Diabetes",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project utilizes Deep Q-Networks (DQN) to analyze and predict diabetes outcomes, showcasing the application of reinforcement learning in healthcare. It highlights skills in machine learning and data analysis.",
+    "detailedDescription": "# DQN+Diabets\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Deep Learning",
+      "Healthcare Analytics"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/dqn-diabets"
+  },
+  {
+    "title": "Notebook 42Ce444Cff",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This data science notebook explores various concepts and techniques, including data visualization and machine learning, to extract insights from Kaggle datasets. It demonstrates proficiency in data analysis and interpretation.",
+    "detailedDescription": "# notebook42ce444cff\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Visualization",
+      "Machine Learning"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/notebook42ce444cff"
+  },
+  {
+    "title": "Kge Gkae",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project combines Knowledge Graph Embeddings (KGE) with Graph Knowledge Aware Embeddings (GKAE) to develop a robust recommendation system, leveraging Kaggle datasets for evaluation. It showcases expertise in graph-based learning and recommendation systems.",
+    "detailedDescription": "# KGE+GKAE\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Graph Embeddings",
+      "Recommendation Systems"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/kge-gkae"
+  },
+  {
+    "title": "Financial Growth Analyzer",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project develops a financial growth analyzer using data science techniques, providing insights into financial trends and patterns. It demonstrates skills in financial analysis and data visualization.",
+    "detailedDescription": "# Finantial_Groq_Analyzer\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Financial Analysis",
+      "Data Visualization"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/finantial-groq-analyzer"
+  },
+  {
+    "title": "Electric Vehicle Population Prediction",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project uses machine learning and data analysis to predict the growth of electric vehicle populations, leveraging Kaggle datasets for model training and evaluation. It highlights expertise in predictive modeling and sustainability analytics.",
+    "detailedDescription": "# electric-vehicle-population-prediction\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Predictive Modeling",
+      "Sustainability Analytics"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/electric-vehicle-population-prediction"
+  },
+  {
+    "title": "Pfe Att2",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project applies data science techniques to analyze and optimize ATT2 systems, leveraging Kaggle datasets for model development and evaluation. It demonstrates skills in data analysis and process optimization.",
+    "detailedDescription": "# PFE: ATT2\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Process Optimization",
+      "Data Analysis"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/pfe-att2"
+  },
+  {
+    "title": "Pfe Att",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project uses data science and machine learning to analyze and improve ATT systems, showcasing the application of predictive modeling and data-driven insights. It highlights expertise in data science and process optimization.",
+    "detailedDescription": "# PFE: ATT\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Predictive Modeling",
+      "Process Optimization"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/pfe-att"
+  },
+  {
+    "title": "Ds Exam Ex15 Outliers And Data Separability",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project explores data science concepts, including outlier detection and data separability, using Kaggle datasets for evaluation and analysis. It demonstrates skills in data analysis, machine learning, and statistical modeling.",
+    "detailedDescription": "# DS EXAM: EX15: outliers and data separability\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Outlier Detection",
+      "Statistical Modeling"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/ds-exam-ex15-outliers-and-data-separability"
+  },
+  {
+    "title": "Attllm",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project utilizes advanced data science techniques to analyze and interpret complex data sets, providing valuable insights through machine learning models. It showcases expertise in data analysis and modeling.",
+    "detailedDescription": "# ATTLLM\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Machine Learning",
+      "Data Analysis"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/attllm"
+  },
+  {
+    "title": "Test Different Visualizations",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project explores various data visualization techniques to effectively communicate insights and trends in data. It demonstrates proficiency in data visualization and storytelling.",
+    "detailedDescription": "# Test Different Visualizations\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Data Visualization",
+      "Communication"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/test-different-visualizations"
+  },
+  {
+    "title": "Ds Exam: Ex11",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project applies data science concepts to solve a specific problem or challenge, showcasing analytical and problem-solving skills. It highlights expertise in data science and exam-taking strategies.",
+    "detailedDescription": "# DS EXAM: EX11\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Problem Solving",
+      "Analytical Thinking"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/ds-exam-ex11"
+  },
+  {
+    "title": "Aprompt",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project utilizes natural language processing and machine learning techniques to generate human-like text prompts. It demonstrates expertise in NLP and text generation.",
+    "detailedDescription": "# APrompt\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "NLP",
+      "Text Generation"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/aprompt"
+  },
+  {
+    "title": "Feature Encoding",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project focuses on feature engineering and encoding techniques to prepare data for machine learning models. It showcases proficiency in data preprocessing and feature selection.",
+    "detailedDescription": "# Feature Encoding\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Feature Engineering",
+      "Data Preprocessing"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/feature-encoding"
+  },
+  {
+    "title": "Diffdpm",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project applies differential equations and machine learning techniques to analyze and model complex systems. It demonstrates expertise in mathematical modeling and data analysis.",
+    "detailedDescription": "# DiffDPM\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Differential Equations",
+      "Mathematical Modeling"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/diffdpm"
+  },
+  {
+    "title": "Notebook05222Fa807",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project explores data science concepts and techniques through a series of interactive notebooks. It showcases proficiency in data science and notebook development.",
+    "detailedDescription": "# notebook05222fa807\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Notebook Development",
+      "Interactive Learning"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/notebook05222fa807"
+  },
+  {
+    "title": "Notebook86D57520E0",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project applies data science techniques to real-world problems through a series of interactive notebooks. It demonstrates expertise in data science and practical problem-solving.",
+    "detailedDescription": "# notebook86d57520e0\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Practical Problem Solving",
+      "Real-World Applications"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/notebook86d57520e0"
+  },
+  {
+    "title": "Using Knn To Detect Outliers",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project utilizes K-Nearest Neighbors (KNN) algorithm to detect outliers and anomalies in data sets. It showcases proficiency in machine learning and data quality control.",
+    "detailedDescription": "# Using KNN to detect Outliers\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "KNN",
+      "Anomaly Detection"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/using-knn-to-detect-outliers"
+  },
+  {
+    "title": "Feature Importance Using Random Forest",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project applies Random Forest algorithm to determine feature importance and select relevant features for machine learning models. It demonstrates expertise in feature selection and model interpretability.",
+    "detailedDescription": "# Feature Importance Using Random Forest\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Kaggle",
+      "Data Science",
+      "Random Forest",
+      "Feature Selection"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/feature-importance-using-random-forest"
+  },
+  {
+    "title": "Standardization, Normalization, Feature Engineering",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project focuses on applying standardization, normalization, and feature engineering techniques to improve data quality and prepare it for modeling. By leveraging these techniques, data scientists can unlock hidden insights and patterns in their data.",
+    "detailedDescription": "# Standarization, Normalization, Feature Engineering\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Data Science",
+      "Feature Engineering",
+      "Data Preprocessing"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/standarization-normalization-feature-engineering"
+  },
+  {
+    "title": "Comparing Iqr And Z-Score In Outliers Detection",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project explores the comparison of Interquartile Range (IQR) and Z-Score methods for detecting outliers in datasets. By evaluating these techniques, data scientists can identify the most effective approach for their specific use case.",
+    "detailedDescription": "# Comparin IQR and Z-Socre in Outliers Detection\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Data Science",
+      "Outlier Detection",
+      "Statistical Analysis"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/comparin-iqr-and-z-socre-in-outliers-detection"
+  },
+  {
+    "title": "Dealrec",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project involves the development of a recommendation system, Dealrec, designed to provide personalized suggestions to users. By leveraging data science techniques, Dealrec aims to improve user engagement and satisfaction.",
+    "detailedDescription": "# DealRec\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Data Science",
+      "Recommendation Systems",
+      "Machine Learning"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/dealrec"
+  },
+  {
+    "title": "Test Data Smoothing",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project focuses on applying data smoothing techniques to test data, aiming to reduce noise and improve model performance. By smoothing test data, data scientists can increase the accuracy and reliability of their models.",
+    "detailedDescription": "# Test data Smoothing\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Data Science",
+      "Data Smoothing",
+      "Model Optimization"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/test-data-smoothing"
+  },
+  {
+    "title": "Pairwise Data Exploration 2",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project involves an in-depth exploration of pairwise data relationships, aiming to uncover hidden patterns and correlations. By analyzing pairwise data, data scientists can gain a deeper understanding of their data and make more informed decisions.",
+    "detailedDescription": "# Pairwise data exploration 2\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Data Science",
+      "Data Exploration",
+      "Pairwise Analysis"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/pairwise-data-exploration-2"
+  },
+  {
+    "title": "Data Augmentation + Cc",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project explores the application of data augmentation techniques, combined with contrastive learning (CC), to improve model performance and generalizability. By leveraging these techniques, data scientists can increase the robustness and accuracy of their models.",
+    "detailedDescription": "# Data Augmentation+CC\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Data Science",
+      "Data Augmentation",
+      "Contrastive Learning"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/data-augmentation-cc"
+  },
+  {
+    "title": "Project Proposal",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project involves the development of a comprehensive project proposal, outlining the objectives, methodology, and expected outcomes of a data science project. By creating a well-structured proposal, data scientists can ensure a clear direction and successful project execution.",
+    "detailedDescription": "# Project Proposal \n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Data Science",
+      "Project Management",
+      "Proposal Development"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/project-proposal"
+  },
+  {
+    "title": "Transformers4Rec - Synthetic Data Example 1Be106",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project demonstrates the application of Transformers4Rec, a state-of-the-art recommendation system, using synthetic data example 1be106. By leveraging this technique, data scientists can build highly effective and personalized recommendation systems.",
+    "detailedDescription": "# Transformers4rec - Synthetic Data Example 1be106\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Data Science",
+      "Transformers4Rec",
+      "Recommendation Systems"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/transformers4rec-synthetic-data-example-1be106"
+  },
+  {
+    "title": "Ecommerce-Transformers4Rec",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project involves the development of an ecommerce recommendation system using Transformers4Rec, aiming to provide personalized product suggestions to users. By leveraging this technique, ecommerce businesses can increase user engagement and drive sales.",
+    "detailedDescription": "# ecommerce-transformer4rec\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Data Science",
+      "Ecommerce",
+      "Transformers4Rec"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/ecommerce-transformer4rec"
+  },
+  {
+    "title": "Transformers4Rec - Synthetic Data Example",
+    "institute": "Kaggle",
+    "year": "N/A",
+    "description": "This project explores the application of Transformers4Rec using synthetic data examples, aiming to evaluate the performance and effectiveness of this recommendation system. By analyzing the results, data scientists can refine and improve the model for real-world applications.",
+    "detailedDescription": "# Transformers4rec - Synthetic Data Example\n## Overview\nA Kaggle notebook exploring data science and machine learning techniques.\n\n## Details\n- Language: \n- Total Views: 0\n- Total Votes: 0\n- Last Run: \n\n## Technologies Used\n, Jupyter Notebook",
+    "category": "Kaggle",
+    "type": "Data Science",
+    "status": "Done",
+    "tags": [
+      "Data Science",
+      "Transformers4Rec",
+      "Synthetic Data"
+    ],
+    "link": "https://www.kaggle.com/code/bchems/transformers4rec-synthetic-data-example"
+  }
+]
